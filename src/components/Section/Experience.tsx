@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 
-const Experience = () => {
+const ExperienceSection = () => {
   return (
     <div className="bg-black flex h-screen text-white">
       <div className="m-auto">
@@ -52,4 +52,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default ExperienceSection

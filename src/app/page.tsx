@@ -3,6 +3,7 @@ import React from 'react'
 import About from '../components/Section/About'
 import ReactPageScroller, { SectionContainer } from 'react-page-scroller'
 import Experience from '@/components/Section/Experience'
+import SkillSection from '@/components/Section/Skill'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
           <Experience />
         </SectionContainer>
         <SectionContainer height={100}>
-          page 3
+          <SkillSection />
         </SectionContainer>
       </ReactPageScroller>
     </div>
