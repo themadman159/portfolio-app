@@ -3,7 +3,7 @@ import { ContactInfo } from '@/components/Dock/ContactInfo'
 import BoxReveal from "../ui/box-reveal"
 import Image from "next/image"
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div className="flex h-screen">
       <div className="m-auto">
@@ -50,4 +50,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutSection
