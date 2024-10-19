@@ -4,8 +4,7 @@ interface TextRevealProps {
   text: string;
   boxColor?: string
   duration?: number
-  textSize?: string
-  fontBold?: boolean
+  textClass?: string
 }
 
 const TextReveal = (props: TextRevealProps) => {
@@ -16,10 +15,7 @@ const TextReveal = (props: TextRevealProps) => {
         duration={props.duration ? props.duration : 0.5}
       >
         <p 
-          className={`
-            ${props.textSize} 
-            ${props.fontBold ? 'font-bold' : ''}
-          `}
+          className={`${props.textClass}`}
         >
           {props.text}
         </p>
